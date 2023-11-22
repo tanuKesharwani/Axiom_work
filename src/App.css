@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(68, 68, 68);
+  color:white;
+}
+.cCard{
+  background-color: white;
+  color:black;
+  width: fit-content;
+  padding:2px;
+  padding-left:5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.categorySection{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+.SectionAdmin{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
